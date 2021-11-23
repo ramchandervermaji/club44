@@ -104,3 +104,8 @@ section
     position: relative;
 }
 
+p{
+    text-align: justify;
+    text-justify: inter-character;
+}
+
