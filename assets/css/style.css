@@ -15,8 +15,14 @@ body {
 {
     height:10vh;
     color:white;
-    
 }
+.half-a-border-on-left {
+    border-top: 7px solid  #c3c7c4;
+    width:50%;
+    position:absolute;
+    top:0rem;
+    right:0;
+  }
 .nav-link
 {
     color:#616662 !important;
@@ -25,10 +31,10 @@ body {
 }
  .navbar-nav
 {
-    border-top: 5px solid #c3c7c4;
     position:sticky;
     z-index: 5;
     background-color: white;
+   
 } 
 
 .nav-item
@@ -51,19 +57,23 @@ body {
     z-index: 1;
     position: relative;
 }
+
 @media screen and (max-width: 1000px) {
     .img {
         width: 10vw;
         height:15vh;
         margin-top: -1rem;
     }
-    .navbar-nav
+    .half-a-border-on-left
     {
         border-top:none;
     } 
     .navbar-light .navbar-toggler
     {
         margin-top: -1.5rem;
+    }
+    .nav-link{
+        padding-right: 5rem;
     }
 }
 @media screen and (max-width: 600px) {
